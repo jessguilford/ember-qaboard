@@ -1,0 +1,14 @@
+{ "questions": [{
+  "title": "What was your Epicodus experience like?",
+  "author": "Henry Case",
+  "content": "I'm thinking about signing up for Epicodus and I was wondering what past graduates think of the school."
+  }, {
+  "title": "Where can I find the best nachos in Portland?",
+  "author": "YT",
+  "content": "Hey guys, I'm looking to find the best nachos in town. Hit me up with your recommendations."
+  }, {
+  "title": "Good camera store now that Camera World is closed?",
+  "author": "Will Navidson",
+  "content": "I always liked going to Camera World. Where are photographers and videographers going now that it's closed? I'm not interested in shopping online, it's just not the same."
+  }]
+}
