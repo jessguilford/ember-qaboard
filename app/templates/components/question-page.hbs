@@ -1,9 +1,14 @@
 <div class="question-full">
-<h1>{{question.title}}</h1>
-<h3>{{question.author}}</h3>
-<p>{{question.content}}</p>
-<button {{action 'delete' question}}>Delete</button>
+  <h1>{{question.title}}</h1>
+  <h3>{{question.author}}</h3>
+  <p>{{question.content}}</p>
+  <button {{action 'delete' question}}>Delete</button>
 </div>
 <h2>Add Your Answer</h2>
 {{new-answer question=question saveAnswer=saveAnswer}}
 <h2>Answers:</h2>
+<ul class="answer-list">
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
