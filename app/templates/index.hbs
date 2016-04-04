@@ -3,7 +3,7 @@
 
 <h2>All Community Questions</h2>
 <ul class="question-list">
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </ul>
