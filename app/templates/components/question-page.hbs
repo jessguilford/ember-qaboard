@@ -9,6 +9,6 @@
 <h2>Answers:</h2>
 <ul class="answer-list">
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}
 </ul>
