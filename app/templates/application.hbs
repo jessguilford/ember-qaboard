@@ -1,3 +1,19 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="wrapper">
+  <header>
+    <div class="navbar">
+      <ul>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+      </ul>
+    </div>
+    <div class="masthead">
+      <h1 id="title">Epic QA</h1>
+      <h2>A question and answer forum created with Ember.js.</h2>
+    </div>
+  </header>
+  <div class="container">
+    {{outlet}}
+  </div>
+  <footer>
+    <p>Created by Jess Guilford for JavaScript at Epicodus, April 2016.</p>
+  </footer>
+</div>
