@@ -1,6 +1,7 @@
 <li>
   {{#link-to 'question' question.id}}
     <h1>{{question.title}}</h1>
+    <p>{{preview}}</p>
     <h2>{{question.author}}</h2>
   {{/link-to}}
   <button {{action 'addToBookmarks' question}}>Bookmark</button>

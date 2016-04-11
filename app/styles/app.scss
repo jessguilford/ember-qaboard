@@ -94,6 +94,7 @@ input {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin: $med-margin 0;
+    position: relative;
     @media screen and (min-width: $med-breakpoint) {
       width: 30%;
       float: left;
@@ -110,6 +111,12 @@ input {
     h2 {
       font-size: .9em;
       padding-left: $sm-margin;
+    }
+    button {
+      float: left;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
     }
   }
 }

@@ -5,5 +5,9 @@ export default Ember.Service.extend({
 
   add(question) {
     this.get('bookmarks').pushObject(question);
-  }
+  },
+  remove(question) {
+    this.get('bookmarks').removeObject(question);
+    console.log(this.bookmarks);
+  },
 });
