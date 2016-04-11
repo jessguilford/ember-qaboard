@@ -1,6 +1,6 @@
 <li>
   {{#link-to 'question' question.id}}
-    <h1>{{question.title}}</h1>
+    <h1 class={{answer-status question}}>{{question.title}}</h1>
     <p>{{preview}}</p>
     <h2>{{question.author}}</h2>
   {{/link-to}}
